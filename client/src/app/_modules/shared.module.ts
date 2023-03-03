@@ -12,5 +12,6 @@ import { ToastrModule } from 'ngx-toastr';
       positionClass: 'toast-bottom-right',
     }),
   ],
+  exports: [BsDropdownModule, ToastrModule],
 })
 export class SharedModule {}
